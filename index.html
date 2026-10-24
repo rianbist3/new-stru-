@@ -93,15 +93,45 @@
    to a colour, e.g. {n:"Black",hex:"#111",ink:"#fff",front:"images/tee-black-front.png",back:"images/tee-black-back.png"}
    Photos should be PNG/WebP with a transparent background, about 600x850px, same proportions for every item. */
 const ITEMS = [
-  { name:"STRU Black & Gold Hoodie", price:"", shape:"hoodie", num:"01",
-    colors:[{n:"Black & Gold",hex:"#2b2a1c",ink:"#d9b24c",
-             front:"images/stru-black-gold-front.webp", back:"images/stru-black-gold-back.webp"}] },
-  { name:"STRU Icy Blue Hoodie", price:"", shape:"hoodie", num:"02",
-    colors:[{n:"Icy Blue",hex:"#4f93b5",ink:"#fff",
-             front:"images/stru-blue-front.webp", back:"images/stru-blue-back.webp"}] },
-  { name:"STRU Inferno Red & Cream Hoodie", price:"", shape:"hoodie", num:"03",
-    colors:[{n:"Inferno Red & Cream",hex:"#b8312f",ink:"#fff",
-             front:"images/stru-red-front.webp", back:"images/stru-red-back.webp"}] },
+  {
+    name: "Item 1",
+    price: "$49",
+    type: "tee",
+    color: "#d9d1c4",
+    ink: "#1b1b1b",
+    label: "Brand",
+    num: "01",
+    image: {
+      front: "img/item1-front.png",
+      back: "img/item1-back.png"
+    }
+  },
+  {
+    name: "Item 2",
+    price: "$59",
+    type: "hoodie",
+    color: "#2d4c73",
+    ink: "#edf5ff",
+    label: "Brand",
+    num: "02",
+    image: {
+      front: "img/item2-front.png",
+      back: "img/item2-back.png"
+    }
+  },
+  {
+    name: "Item 3",
+    price: "$69",
+    type: "zip",
+    color: "#1b1b1b",
+    ink: "#f7f7f7",
+    label: "Brand",
+    num: "03",
+    image: {
+      front: "img/item3-front.png",
+      back: "img/item3-back.png"
+    }
+  }
 ];
 const BRAND = "STRU";
 
